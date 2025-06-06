@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Modern Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo" tabindex="0">Sample Website</div>
+      <div class="nav-links" role="navigation" aria-label="Primary Navigation">
+        <a href="#features" tabindex="0">Features</a>
+        <a href="#about" tabindex="0">About</a>
+        <a href="https://example.com" target="_blank" rel="noopener" tabindex="0">External Link</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" role="banner">
+      <h1>Build Simple Modern Webpage</h1>
+      <p>A clean, elegant webpage demonstrating HTML, CSS, and JavaScript basics.</p>
+      <button class="button-primary" id="alertBtn" aria-label="Show alert message">Click Me for Alert</button>
+    </section>
+
+    <section class="content" id="features">
+      <h2>Webpage Elements</h2>
+      <p>This section includes basic HTML elements: headings, paragraphs, images, and links styled elegantly.</p>
+      <p>Here is a sample image below:</p>
+      <img src="OIP.jpeg" alt="Scenic nature view" />
+     
+    </section>
+
+    <section class="card-container" id="about" aria-label="Cards section">
+      <article class="card" tabindex="0">
+        <h3>Elegant Typography</h3>
+        <p>Utilizing modern, readable fonts with clear hierarchy for content.</p>
+      </article>
+      <article class="card" tabindex="0">
+        <h3>Responsive Layout</h3>
+        <p>Flexible grids and containers ensure the webpage looks great on all devices.</p>
+      </article>
+      <article class="card" tabindex="0">
+        <h3>Interactive Button</h3>
+        <p>A simple JavaScript button triggers an alert for engagement and feedback.</p>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('alertBtn').addEventListener('click', function() {
+      alert('Hello! You clicked the button.');
+    });
+  </script>
+  <footer>
+    © 2025 Sample Website. All rights reserved. <br>
+    Ankur Nagarkoti
+  </footer>
+</body>
+</html>
+
